@@ -70,14 +70,13 @@ nav a:hover {
 .sidebar {
     flex-direction: column;
     position: fixed;
-    align-items: flex-start;
-    justify-content: flex-start;
     height: auto;
     width: 100%;
-    background-color: #5C3D78;;
+    background-color: #2d1c3b;
     border-radius: 20px;
     display: none;
     z-index: 1000;
+    margin-top: -5px;
 }
 
 .sidebar li {
@@ -100,7 +99,42 @@ nav a:hover {
     border-radius: 8px;
 }
 
+/*welcome container*/
+.welcome-container {
+    width: 100%;
+    max-width: 1350px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    background-color: #5C3D78;
+    border-radius: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.welcome-container h1, h2, p{
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.desc p{
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+.desc-img img{
+    width: 400px;
+    height: 400px;
+}
+
+
 @media screen and (max-width: 768px) {
+    /*navbar*/
     .hideOnMobile {
         display: none;
     }
@@ -114,5 +148,31 @@ nav a:hover {
     .hideIcon {
         display: none;
         cursor: pointer;
+    }
+
+    /*welcome-container*/
+    .welcome-container{
+        flex-direction: column;
+        align-items: center;
+        height: 480px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .desc p{
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .image img{
+        height: 200px;
+        width: 200px;
     }
 }
