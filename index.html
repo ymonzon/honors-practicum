@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="scripts.js"></script>
+
+    <title>Exploring Dance: Intersections of Movement, Expression, and Technology</title>
 </head>
 <body>
-    
+    <div class="navbar-container">
+        <nav>
+            <ul class="menu">
+                <div class="logo">
+                    <li><a><img src="./images/logo.png" alt="Website logo" width="150px" height="60px"></a>
+                    </li>
+                </div>
+                <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="#">What is Dance?</a></li>
+                <li class="hideOnMobile"><a href="#">Technology & Dance</a></li>
+                <li class="hideOnMobile"><a href="#">Case Studies</a></li>
+                <!-- Added the hamburger icon and the X icon buit have these as dispaly:none -->
+                <div class="sideIcon">
+                    <li onclick=showSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                            viewBox="0 -960 960 960" width="30px" fill="#5f6368">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></li>
+                </div>
+                <div class="hideIcon">
+                    <li onclick=hideSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                            viewBox="0 -960 960 960" width="30px" fill="#5f6368">
+                            <path
+                                d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+                        </svg></li>
+                </div>
+            </ul>
+
+            <!-- this is the sidebar for the hamburger icon -->
+            <ul class="sidebar">
+                <!-- Added hideOnBigScreen class to be able to hide it all when screen is larger -->
+                <li class="hideOnBigScreen"><a href="#">Home</a></li>
+                <li class="hideOnBigScreen"><a href="#">What is Dance?</a></li>
+                <li class="hideOnBigScreen"><a href="#">Technology & Dance</a></li>
+                <li class="hideOnBigScreen"><a href="#">Case Studies</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>

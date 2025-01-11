@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #1C1C1E;
+}
+
+.navbar-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 40px;
+    padding-bottom: 40px;
+}
+
+/*navigation css*/
+.logo {
+    padding-right: 10px;
+}
+
+nav {
+    background-color: #1C1C1E;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+nav a:hover {
+    color: #FF4081;
+}
+
+.sideIcon {
+    display: none;
+}
+
+.hideIcon {
+    display: none;
+}
+
+
+/* When the sidebar is active, hide hamburger and show the X icon */
+.sidebar.active {
+    display: block;
+}
+
+.hideIcon.active {
+    display: block;
+}
+
+.sideIcon.hidden {
+    display: none;
+}
+
+/* Hide the sidebar initially */
+.sidebar {
+    flex-direction: column;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    background-color: #5C3D78;;
+    border-radius: 20px;
+    display: none;
+    z-index: 1000;
+}
+
+.sidebar li {
+    padding: 10px 10px;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.sidebar li a {
+    color: white;
+    font-size: small;
+}
+
+.sidebar a:hover {
+    color: #FF4081;
+}
+
+.sidebar li:hover {
+    background-color: #3381FD;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .sideIcon {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .hideIcon {
+        display: none;
+        cursor: pointer;
+    }
+}
