@@ -153,6 +153,7 @@ nav a:hover {
 .project-goals-container .desc p{
     color:#F5F5F5;
     margin-top: -15px;
+    margin-bottom: 20px;
 }
 
 .goals-container {
@@ -175,7 +176,7 @@ nav a:hover {
 }
 
 /* Individual containers */
-.define {
+.define, .highlight{
     background-color: white;
 }
 
@@ -183,9 +184,6 @@ nav a:hover {
     background-color: #3381FD;
 }
 
-.highlight {
-    background-color: #1C59B9;
-}
 
 
 
