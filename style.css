@@ -184,6 +184,126 @@ nav a:hover {
     background-color: #3381FD;
 }
 
+/*content-container*/
+.dance-pic img,
+.tech-pic img,
+.case-pic img{
+    width: 40px;
+    height: 40px;
+}
+
+.content-container {
+    margin: 100px auto 0 auto;
+    max-width: 1350px;
+    height: auto;
+    border-radius: 30px;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./images/content-back.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    padding-bottom: 50px;
+}
+
+.content-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(139, 182, 252, 0.5);
+    z-index: 1;
+}
+
+.content-container .heading {
+    font-size: 40px;
+    color: white;
+    padding-left: 100px;
+    text-wrap: nowrap;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+.content-container .writing {
+    margin-right: 300px;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #7A7A7A;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.client-container,
+.growth-container {
+    padding-right: 100px;
+}
+
+.car-pic,
+.client-pic,
+.driver-pic {
+    display: flex;
+}
+
+.car-pic svg,
+.client-pic svg,
+.driver-pic svg {
+    background-color: #498BF4;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.car-p p,
+.client-p p,
+.driver-p p {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 0%;
+}
+
+.rapid p,
+.happy p,
+.network p {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 0%;
+}
+
+.rapid-p p,
+.happy-p p,
+.network-p p {
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #E2E2E2;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 200px;
+    padding-right: 100px;
+}
+
 
 
 
