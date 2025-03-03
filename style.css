@@ -110,6 +110,7 @@ nav a:hover {
     border-radius: 30px;
     margin: 0 auto;
     overflow: hidden;
+    padding-bottom: 10px;
 }
 
 .welcome-container h1, 
@@ -131,8 +132,9 @@ nav a:hover {
 
 .desc-img img{
     width: 400px;
-    height: 400px;
+    height: 450px;
 }
+
 
 /*goals container*/
 .project-goals-container {
@@ -172,7 +174,6 @@ nav a:hover {
     padding: 20px;
     border-radius: 30px;
     max-width: 300px;
-    /* Ensure equal widths */
 }
 
 /* Individual containers */
@@ -182,6 +183,19 @@ nav a:hover {
 
 .explore {
     background-color: #3381FD;
+}
+
+.explore h2{
+    margin-top: -10px;
+}
+
+.highlight h2{
+    margin-top: -5px;
+}
+
+.explore img,
+.highlight img{
+    padding-top: 50px;
 }
 
 /*content-container*/
