@@ -107,6 +107,7 @@ nav a:hover {
     border-radius: 30px;
     margin: 0 auto;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .heading{
@@ -136,6 +137,19 @@ nav a:hover {
     margin-top: -15px;
 }
 
+/*characteristics*/
+.characteristics-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.character-intro{
+    font-size: 30px;
+    color:#A7B9D9;
+    font-weight: bold;
+}
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
