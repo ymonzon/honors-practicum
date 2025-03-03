@@ -99,6 +99,35 @@ nav a:hover {
     border-radius: 8px;
 }
 
+/*intro*/
+.dance-intro{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #af8ecb;
+    border-radius: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading .title{
+    font-size: 40px;
+    color: #0f3a80;
+    font-weight: bolder;
+}
+
+.heading .sub-heading p{
+    font-size: 25px;
+    color: #0f3a80;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
