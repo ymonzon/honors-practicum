@@ -107,7 +107,7 @@ nav a:hover {
     border-radius: 30px;
     margin: 0 auto;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .heading{
@@ -226,21 +226,26 @@ nav a:hover {
     margin-bottom: 250px;
 }
 
-.history-content,
-.history-2{
+.history-content{
     display: flex;
-}
-
-.ancient-container,
-.renaissance-container{
-    width: 100%;
-    max-width: 600px;
-    padding-right: 20px;
     margin-bottom: 100px;
 }
 
-.history-title,
-.renaissance-title{
+.history-2,
+.history-3{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.ancient-container,
+.renaissance-container,
+.theatrical-container{
+    width: 100%;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+.history-title{
     font-size: 30px;
     color:#A7B9D9;
     font-weight: bold;
@@ -248,7 +253,8 @@ nav a:hover {
 }
 
 .ancient-title,
-.renaissance-title{
+.renaissance-title,
+.theatrical-title{
     font-size: 25px;
     color: #c689c8;
     font-weight: bold;
@@ -256,7 +262,8 @@ nav a:hover {
 }
 
 .ancient-sub,
-.renaissance-sub{
+.renaissance-sub,
+.theatrical-sub{
     font-size: 20px;
     color: #c689c8;
     font-weight: bold;
@@ -264,7 +271,8 @@ nav a:hover {
 }
 
 .ancient-content ul li,
-.renaissance-content ul li{
+.renaissance-content ul li,
+.theatrical-content ul li{
     font-size: 20px;
     text-align: center;
     color: white;
@@ -272,7 +280,8 @@ nav a:hover {
 }
 
 .ancient-images,
-.renaissance-images{
+.renaissance-images,
+.theatrical-images{
     width: 100%;
     max-width: 600px;
     text-align: center;
@@ -280,6 +289,7 @@ nav a:hover {
 
 .two-images{
     display: flex;
+    text-align: center;
 }
 
 .img-columns{
@@ -295,14 +305,24 @@ nav a:hover {
     width: 400px;
 }
 
-.renaissance-img-2 img{
-    width: 300px;
-}
-
-
+.renaissance-img-2 img,
 .renaissance-img-3 img{
     width: 300px;
 }
+
+.theatrical-img-1 img{
+    width: 170px;
+}
+
+.theatrical-img-2 img{
+    width: 350px;
+}
+
+.theatrical-container{
+    padding-right: 20px;
+}
+
+
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
