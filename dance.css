@@ -232,14 +232,16 @@ nav a:hover {
 }
 
 .history-2,
-.history-3{
+.history-3,
+.history-4{
     display: flex;
     margin-bottom: 100px;
 }
 
 .ancient-container,
 .renaissance-container,
-.theatrical-container{
+.theatrical-container,
+.global-container{
     width: 100%;
     max-width: 600px;
     padding-right: 20px;
@@ -254,7 +256,8 @@ nav a:hover {
 
 .ancient-title,
 .renaissance-title,
-.theatrical-title{
+.theatrical-title,
+.global-title{
     font-size: 25px;
     color: #c689c8;
     font-weight: bold;
@@ -263,7 +266,8 @@ nav a:hover {
 
 .ancient-sub,
 .renaissance-sub,
-.theatrical-sub{
+.theatrical-sub,
+.global-sub{
     font-size: 20px;
     color: #c689c8;
     font-weight: bold;
@@ -272,7 +276,8 @@ nav a:hover {
 
 .ancient-content ul li,
 .renaissance-content ul li,
-.theatrical-content ul li{
+.theatrical-content ul li,
+.global-content ul li{
     font-size: 20px;
     text-align: center;
     color: white;
@@ -281,7 +286,8 @@ nav a:hover {
 
 .ancient-images,
 .renaissance-images,
-.theatrical-images{
+.theatrical-images,
+.global-images{
     width: 100%;
     max-width: 600px;
     text-align: center;
@@ -320,6 +326,18 @@ nav a:hover {
 
 .theatrical-container{
     padding-right: 20px;
+}
+
+.global-img-2 img{
+    width: 125px;
+}
+
+.global-img-3 img{
+    width: 300px;
+}
+
+.global-img-1 img{
+    width: 400px;
 }
 
 
