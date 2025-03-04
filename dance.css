@@ -141,15 +141,83 @@ nav a:hover {
 .characteristics-container{
     margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
-    text-align: center;
+    max-width: 1200px;
+}
+
+.character-row{
+    display: flex;
+    justify-content: space-between;
 }
 
 .character-intro{
     font-size: 30px;
     color:#A7B9D9;
     font-weight: bold;
+    text-align: center;
 }
+
+.rhythm,
+.intent,
+.patterns{
+    position: relative;
+}
+
+.rhythm-pic img,
+.intent-pic img,
+.patterns-pic img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.rhythm-logo svg,
+.intent-logo svg,
+.patterns-logo svg{
+    width: 40px;
+    height: 40px;
+    background-color: #9eb8e3;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.rhythm-content,
+.intent-content,
+.patterns-content{
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgba(51, 129, 253);
+    max-width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rythm-heading,
+.intent-heading,
+.patterns-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.rhythm-writing,
+.intent-writing,
+.patterns-writing{
+    color: #E2E2E2;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
