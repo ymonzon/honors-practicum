@@ -195,7 +195,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    background-color: rgba(51, 129, 253);
+    background-color: rgb(123, 165, 233);
     max-width: 300px;
     height: 200px;
     text-align: center;
@@ -226,45 +226,53 @@ nav a:hover {
     margin-bottom: 250px;
 }
 
-.history-content{
+.history-content,
+.history-2{
     display: flex;
 }
 
-.ancient-container{
+.ancient-container,
+.renaissance-container{
     width: 100%;
     max-width: 600px;
     padding-right: 20px;
+    margin-bottom: 100px;
 }
 
-.history-title{
+.history-title,
+.renaissance-title{
     font-size: 30px;
     color:#A7B9D9;
     font-weight: bold;
     text-align: center;
 }
 
-.ancient-title{
+.ancient-title,
+.renaissance-title{
     font-size: 25px;
     color: #c689c8;
     font-weight: bold;
     text-align: center;
 }
 
-.ancient-sub{
+.ancient-sub,
+.renaissance-sub{
     font-size: 20px;
     color: #c689c8;
     font-weight: bold;
     text-align: center;
 }
 
-.ancient-content ul li{
+.ancient-content ul li,
+.renaissance-content ul li{
     font-size: 20px;
     text-align: center;
     color: white;
     padding-bottom: 15px;
 }
 
-.ancient-images{
+.ancient-images,
+.renaissance-images{
     width: 100%;
     max-width: 600px;
     text-align: center;
@@ -274,10 +282,27 @@ nav a:hover {
     display: flex;
 }
 
+.img-columns{
+    display: flex;
+    flex-direction: column;
+}
+
 .ancient-img-1 img{
     height: 300px;
 }
 
+.ancient-img-2 img{
+    width: 400px;
+}
+
+.renaissance-img-2 img{
+    width: 300px;
+}
+
+
+.renaissance-img-3 img{
+    width: 300px;
+}
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
