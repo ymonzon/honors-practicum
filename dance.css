@@ -142,6 +142,7 @@ nav a:hover {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 250px;
 }
 
 .character-row{
@@ -217,6 +218,65 @@ nav a:hover {
     font-size: 20px;
 }
 
+/*history-container*/
+.history-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 250px;
+}
+
+.history-content{
+    display: flex;
+}
+
+.ancient-container{
+    width: 100%;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+.history-title{
+    font-size: 30px;
+    color:#A7B9D9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ancient-title{
+    font-size: 25px;
+    color: #c689c8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ancient-sub{
+    font-size: 20px;
+    color: #c689c8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ancient-content ul li{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.ancient-images{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.two-images{
+    display: flex;
+}
+
+.ancient-img-1 img{
+    height: 300px;
+}
 
 @media screen and (max-width: 768px) {
     /*navbar*/
