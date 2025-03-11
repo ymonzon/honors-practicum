@@ -223,7 +223,7 @@ nav a:hover {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 
 .history-content{
@@ -237,6 +237,7 @@ nav a:hover {
     display: flex;
     margin-bottom: 100px;
 }
+
 
 .ancient-container,
 .renaissance-container,
@@ -340,6 +341,109 @@ nav a:hover {
     width: 400px;
 }
 
+/*Art form section*/
+.art-form-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.art-form-content p{
+    font-size: 30px;
+    color:#A7B9D9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.ballet{
+    width: 350px;
+    background-color: #af8ecb;
+    border-radius: 5px;
+    text-align: center;
+    height: 1055px;
+}
+
+.folk{
+    width: 350px;
+    background-color: #f3a3c3;
+    border-radius: 5px;
+    text-align: center;
+    height: 1055px;
+}
+
+.modern{
+    width: 350px;
+    background-color:#A7B9D9;
+    border-radius: 5px;
+    text-align: center;
+    height: 1055px;
+}
+
+.ballet-title p{
+    font-size: 25px;
+    padding-top: 23px;
+    font-weight: bold;
+}
+
+.modern-title p,
+.folk-title p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.ballet-pic img{
+    width: 275px;
+    text-align: center;
+}
+
+.modern-pic img{
+    width: 280px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.folk-pic img{
+    width: 245px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.ballet-desc,
+.ballet-character ul li,
+.modern-desc,
+.modern-character ul li,
+.folk-desc,
+.folk-character ul li{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    list-style-type:none;
+}
+
+.modern-desc{
+    margin-top: -10px;
+}
+
+.folk-desc{
+    margin-top: -25px;
+}
+
+.ballet-character p,
+.modern-character p,
+.folk-character p{
+    font-size: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
     /*navbar*/
