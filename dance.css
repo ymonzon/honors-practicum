@@ -355,11 +355,12 @@ nav a:hover {
     text-align: center;
 }
 
-.first-row{
+.first-row, .second-row{
     display: flex;
     max-width: 1150px;
     justify-content: space-between;
     align-items: flex-start; 
+    margin-bottom: 100px;
 }
 
 .ballet{
@@ -370,13 +371,14 @@ nav a:hover {
     height: 1055px;
 }
 
-.folk{
+.jazz{
     width: 350px;
-    background-color: #f3a3c3;
+    background-color: #af8ecb;
     border-radius: 5px;
     text-align: center;
-    height: 1055px;
+    height: 1170px;
 }
+
 
 .modern{
     width: 350px;
@@ -386,7 +388,34 @@ nav a:hover {
     height: 1055px;
 }
 
-.ballet-title p{
+.contem{
+    width: 350px;
+    background-color:#A7B9D9;
+    border-radius: 5px;
+    text-align: center;
+    height: 1170px;
+}
+
+.folk{
+    width: 350px;
+    background-color: #f3a3c3;
+    border-radius: 5px;
+    text-align: center;
+    height: 1055px;
+}
+
+.hip-hop{
+    width: 350px;
+    background-color: #f3a3c3;
+    border-radius: 5px;
+    text-align: center;
+    height: 1170px;
+}
+
+.ballet-title p,
+.hip-hop-title p,
+.contem-title p,
+.jazz-title p{
     font-size: 25px;
     padding-top: 23px;
     font-weight: bold;
@@ -399,7 +428,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-.ballet-pic img{
+.ballet-pic img,
+.hip-hop-pic img{
     width: 275px;
     text-align: center;
 }
@@ -416,12 +446,27 @@ nav a:hover {
     margin-top: -20px;
 }
 
+.contem-pic img{
+    width: 290px;
+}
+
+.jazz-pic img{
+    width: 300px;
+    height: 345px;
+}
+
 .ballet-desc,
 .ballet-character ul li,
 .modern-desc,
 .modern-character ul li,
 .folk-desc,
-.folk-character ul li{
+.folk-character ul li,
+.hip-hop-desc,
+.hip-hop-character ul li,
+.contem-desc,
+.contem-character ul li,
+.jazz-desc,
+.jazz-character ul li{
     text-align: center;
     color: black;
     padding: 10px;
@@ -429,17 +474,25 @@ nav a:hover {
     list-style-type:none;
 }
 
-.modern-desc{
+.modern-desc,
+.jazz-desc{
     margin-top: -10px;
 }
 
+.contem-desc{
+    margin-top: -3px;
+}
+
 .folk-desc{
-    margin-top: -25px;
+    margin-top: -20px;
 }
 
 .ballet-character p,
 .modern-character p,
-.folk-character p{
+.folk-character p,
+.hip-hop-character p,
+.contem-character p,
+.jazz-character p{
     font-size: 20px;
     margin-top: -5px;
     font-weight: bold;
