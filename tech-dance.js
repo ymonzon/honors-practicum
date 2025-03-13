@@ -11,3 +11,13 @@ function hideSidebar() {
     document.querySelector('.sideIcon').classList.remove('hidden');
     document.querySelector('.hideIcon').classList.remove('active');
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const faqs = document.querySelectorAll(".faqs");
+
+    faqs.forEach((faq) => {
+        faq.addEventListener("click", () => {
+            faq.classList.toggle("active");
+        });
+    });
+});

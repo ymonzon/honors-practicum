@@ -131,6 +131,91 @@ nav a:hover {
     margin-top: -25px;
 }
 
+/*dropdowns*/
+.question-dropdowns{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.container-left{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.container-right{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.faqs{
+    border-bottom: 2px solid #184E7742;
+    border-top: 2px solid #184E7742;;
+    cursor: pointer;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    color:#A7B9D9;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease;
+}
+
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+}
+
+.question .add-icon{
+    margin-right: 40px;
+    color: black;
+}
+
+.faqs.active .answer{
+    max-height: 300px;
+}
+
+.faqs.active .add-icon{
+    transform: rotate(180deg);
+}
+
+.faqs.active .question{
+    background-color: #023047;
+    border-radius: 10px;
+}
+
+.faqs.active .question p, .question .add-icon{
+    color:#498BF4;
+}
+
+.faqs.active {
+    border-top: none;
+    border-bottom: none;
+}
+
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
