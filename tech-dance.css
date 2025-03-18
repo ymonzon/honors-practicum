@@ -138,6 +138,7 @@ nav a:hover {
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .container-left{
@@ -214,6 +215,67 @@ nav a:hover {
 .faqs.active {
     border-top: none;
     border-bottom: none;
+}
+
+/*Tech evolution container*/
+.tech-evolution{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+.evolution-content{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.early-tech{
+    width: 100%;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+.evolution-title{
+    font-size: 30px;
+    color:#A7B9D9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.early-title{
+    font-size: 25px;
+    color: #c689c8;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.early-content{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.early-images{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.two-images{
+    display: flex;
+    text-align: center;
+}
+
+.early-img-3{
+    margin-top: -8px;
+}
+
+.early-images .video-img-1 img {
+  width: 90%; 
 }
 
 @media screen and (max-width: 768px) {
