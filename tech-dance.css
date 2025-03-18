@@ -282,6 +282,49 @@ nav a:hover {
     margin-top: -10px;
 }
 
+/*Art form section*/
+.art-form-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.art-form-content p{
+    font-size: 30px;
+    color:#A7B9D9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-bottom: 100px;
+}
+
+.ballet{
+    width: 350px;
+    background-color: #af8ecb;
+    border-radius: 5px;
+    text-align: center;
+    height: 1055px;
+}
+
+
+.ballet-title p,
+.hip-hop-title p,
+.contem-title p,
+.jazz-title p{
+    font-size: 25px;
+    padding-top: 23px;
+    font-weight: bold;
+}
+
+.ballet-desc p{
+    font-size: 20px;
+}
 @media screen and (max-width: 768px) {
     /*navbar*/
     .hideOnMobile {
