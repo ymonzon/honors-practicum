@@ -329,7 +329,8 @@ nav a:hover {
     .welcome-container{
         flex-direction: column;
         align-items: center;
-        height: 480px;
+        height: auto;
+        width: 95%;
     }
 
     h1{
@@ -350,4 +351,76 @@ nav a:hover {
         height: 200px;
         width: 200px;
     }
+
+    /*project goals*/
+    .title h1{
+        font-size: 30px;
+    }
+
+    .goals-container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .define,
+    .explore,
+    .highlight{
+        max-width: 90%;
+        margin-bottom: 25px;
+        align-items: center;
+    }
+
+    .define img,
+    .explore img,
+    .highlight img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .define h2,
+    .explore h2,
+    .highlight h2{
+        font-size: 25px;
+    }
+
+    /*what you'll find here*/
+    .content-container{
+        align-items: center;
+        height: auto;
+        max-width: 95%;
+    }
+
+    .content{
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .content-container .writing{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .content-container .heading{
+        font-size: 30px;
+    }
+
+    .categories{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .vl{
+        display: none;
+    }
+
+    .dance-container,
+    .tech-container{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
 }
