@@ -341,4 +341,71 @@ nav a:hover {
         display: none;
         cursor: pointer;
     }
+
+    /*intro container*/
+    .tech-dance-intro{
+        max-width: 100%;
+    }
+
+    .heading .title{
+        font-size: 35px;
+    }
+
+    /*dropdowns*/
+    .question-dropdowns{
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .container-left{
+        margin-bottom: 50px;
+    }
+
+    /*evolution of dance*/
+    .tech-evolution{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .evolution-content{
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .early-tech{
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .early-images{
+        max-width: 100%;
+        padding-left: 50px;
+    }
+
+    .early-img-3{
+        padding-right: 100px;
+    }
+
+    /*Impact section*/
+    .art-form-container{
+        max-width: 100%;
+    }
+
+    .first-row{
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ballet{
+        max-width: 100%;
+        width: 90%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
 }
