@@ -541,7 +541,7 @@ nav a:hover {
     .patterns{
         width: 100%;
     }
-    
+
     .rhythm-pic img,
     .intent-pic img,
     .patterns-pic img{
@@ -568,5 +568,48 @@ nav a:hover {
     .patterns-content{
         top: 85%;
     }
+
+    /*history container*/
+    .history-content,
+    .history-2,
+    .history-3,
+    .history-4{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .ancient-container,
+    .renaissance-container,
+    .theatrical-container,
+    .global-container{
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .ancient-images,
+    .renaissance-images,
+    .theatrical-images,
+    .global-images{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .ancient-images,
+    .renaissance-images{
+        padding-left: 25px;
+    }
+
+    .theatrical-images,
+    .global-images{
+        padding-left: 80px;
+    }
+
+    .theatrical-img-3 img{
+        width: 300px;
+        padding-right: 120px;
+    }
+
 
 }
