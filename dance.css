@@ -611,5 +611,37 @@ nav a:hover {
         padding-right: 120px;
     }
 
+    /*art form container*/
+    .art-form-container{
+        max-width: 100%;
+    }
+
+    .first-row,
+    .second-row{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .ballet,
+    .modern,
+    .folk,
+    .jazz,
+    .contem,
+    .hip-hop{
+        max-width: 100%;
+        width: 90%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .hip-hop{
+        background-color: #af8ecb;
+    }
+
+    .jazz{
+        background-color: #f3a3c3;
+    }
 
 }
