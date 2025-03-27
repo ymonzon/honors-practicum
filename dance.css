@@ -514,4 +514,59 @@ nav a:hover {
         display: none;
         cursor: pointer;
     }
+
+    /*welcome container*/
+    .heading .title{
+        font-size: 30px;
+    }
+
+    .heading .sub-heading p{
+        font-size: 23px;
+    }
+
+    /*key characteristics*/
+    .character-row{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .rhythm,
+    .intent{
+        margin-bottom: 200px;
+        width: 100%;
+    }
+
+    .patterns{
+        width: 100%;
+    }
+    
+    .rhythm-pic img,
+    .intent-pic img,
+    .patterns-pic img{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .rhythm-logo svg,
+    .intent-logo svg,
+    .patterns-logo svg{
+        width: 80px;
+        height: auto;
+    }
+
+    .rhythm-content,
+    .intent-content,
+    .patterns-content{
+        max-width: 90%;
+    }
+
+    .intent-content,
+    .patterns-content{
+        top: 85%;
+    }
+
 }
